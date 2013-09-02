@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/jailanigithub/MKPhotoBrowser.git"}
   s.source_files = 'Source'
   s.requires_arc = false
+  s.framework  = 'AssetsLibrary'
 end  
