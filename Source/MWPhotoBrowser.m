@@ -198,7 +198,6 @@ navigationBarBackgroundImageLandscapePhone = _navigationBarBackgroundImageLandsc
     [_actionButton release];
   	[_depreciatedPhotoData release];
     [self releaseAllUnderlyingPhotos];
-    [[SDImageCache sharedImageCache] clearMemory]; // clear memory
     [_photos release];
     [_progressHUD release];
     [super dealloc];
