@@ -395,7 +395,7 @@ navigationBarBackgroundImageLandscapePhone = _navigationBarBackgroundImageLandsc
     
     // Update UI
 	[self hideControlsAfterDelay];
-    [self setControlsHidden:YES animated:YES permanent:YES];
+    [self setControlsHidden:NO animated:YES permanent:YES];
     
 }
 
